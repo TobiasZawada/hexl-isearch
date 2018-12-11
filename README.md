@@ -9,6 +9,6 @@ Consider a file containing the byte sequence `\x12\x01`. When you input `\x12` (
 
 That effect is avoided by `hexl-isearch`. It interprets `\x1` as invalid partial input. Only hex numbers with two digits are valid. When you input `\x1` isearch stops and waits until you input the second digit. After you enter `\x12` isearch continues and finds the right match at the beginning of the file.
 
-For the same reason three digits are required for the input of octal numbers such as `\012` at the isearch prompt.
+For the same reason three digits are required for the input of octal numbers such as `\012` (octal representation of the decimal number 10) at the isearch prompt.
 
 
